@@ -1,0 +1,170 @@
+:root {
+    --primary: #3498db;
+    --secondary: #2c3e50;
+    --accent: #1abc9c;
+    --light: #ecf0f1;
+    --dark: #2c3e50;
+    --danger: #e74c3c;
+    --danger-dark: #c0392b;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bob-navbar {
+    background: linear-gradient(135deg, var(--secondary), var(--dark));
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.bob-container {
+    padding: 15px 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bob-logo h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: var(--light);
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bob-logo h1 i {
+    color: var(--accent);
+    font-size: 2.5rem;
+}
+
+.bob-navbar-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.bob-navbar-menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: rgba(255,255,255,0.1);
+    color: var(--light);
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-btn:hover {
+    background-color: var(--accent);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.user-welcome {
+    color: var(--light);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50px;
+}
+
+.logout-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--danger);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.logout-btn:hover {
+    background-color: var(--danger-dark);
+    transform: translateY(-2px);
+}
+
+/* Estilos específicos para botones dinámicos */
+.menu-btn[style*="background-color:#e67e22"]:hover {
+    background-color: #d35400 !important;
+    transform: translateY(-3px);
+}
+
+.menu-btn[style*="border:1px solid"]:hover {
+    background-color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bob-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .bob-navbar-menu ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .menu-btn, .logout-btn, .user-welcome {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Ajustes para móviles muy pequeños */
+@media (max-width: 580px) {
+    .bob-logo h1 {
+        font-size: 1.8rem;
+    }
+    
+    .bob-logo h1 i {
+        font-size: 2rem;
+    }
+    
+    .bob-container {
+        padding: 12px 20px;
+    }
+}
