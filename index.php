@@ -12,7 +12,7 @@ $puede_ver_sistema = ($rol === 'admin' || $rol === 'cliente');
     <title>SIMA - Sistema Integrado de Monitoreo Ambiental</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styless.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">

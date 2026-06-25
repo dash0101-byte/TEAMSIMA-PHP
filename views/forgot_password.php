@@ -104,7 +104,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <title>Recuperar Contraseña</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
        body {
