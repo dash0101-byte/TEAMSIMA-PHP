@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "conexion.php";
+require_once '../config/conexion.php';
 
 // Insertar comentario solo si el usuario está logueado
 if (isset($_SESSION["usuario"]) && isset($_POST["comentario"])) {

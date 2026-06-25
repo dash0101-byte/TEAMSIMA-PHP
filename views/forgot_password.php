@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-require 'config.php';
+require_once '../config/conexion.php';
 
 $mensaje = "";
 $mostrar_formulario_recuperacion = true;
