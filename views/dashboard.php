@@ -434,7 +434,7 @@ session_start();
     </footer>
 </div>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../public/js/bootstrap.bundle.min.js"></script>
 <script>
 // Actualización de dashboard escaneando desde el PHP Proxy
 function actualizarDashboard() {

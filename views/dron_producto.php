@@ -238,6 +238,6 @@ $producto = $productos[$modelo_actual];
         <p>© 2025 SIMA Corporation - Tecnología de Altura</p>
     </footer>
 
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

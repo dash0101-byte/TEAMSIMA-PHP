@@ -757,7 +757,7 @@ session_start();
         </footer>
     </div>
 
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/bootstrap.bundle.min.js"></script>
     <script>
         const ENV_URL = "http://172.16.117.50/env";
 

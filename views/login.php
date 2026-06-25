@@ -928,7 +928,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 </footer>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../public/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

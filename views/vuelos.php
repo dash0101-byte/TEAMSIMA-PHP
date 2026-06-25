@@ -272,7 +272,7 @@ $resultado = $conexion->query($sql);
 
 </div>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../public/js/bootstrap.bundle.min.js"></script>
 
 <script>
     const buscador = document.getElementById("buscarVuelo");
