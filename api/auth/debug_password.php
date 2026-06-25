@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'conexion.php';
+require_once '../../config/conexion.php';
 
 // Verificar un usuario específico
 $email = "tu_correo@ejemplo.com"; // Cambia por un email que exista

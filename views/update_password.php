@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "conexion.php";
+require_once '../../config/conexion.php';
 
 if(isset($_POST['token'], $_POST['new_password'], $_POST['confirm_password'])){
     $token = $_POST['token'];

@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-require 'config.php'; // Conexión $conn
+require_once '../../config/conexion.php'; // Conexión $conn
 
 $mensaje = "";
 $mostrar_form = false;

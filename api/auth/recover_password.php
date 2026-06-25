@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'conexion.php'; // tu conexión a la BD
+require_once '../../config/conexion.php'; // tu conexión a la BD
 $mensaje = ""; // Inicializamos la variable
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
