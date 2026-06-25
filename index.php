@@ -13,7 +13,7 @@ $puede_ver_sistema = ($rol === 'admin' || $rol === 'cliente');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styless.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -542,8 +542,7 @@ $puede_ver_sistema = ($rol === 'admin' || $rol === 'cliente');
     <i class="fas fa-arrow-up"></i>
 </div>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="public/js/bootstrap.bundle.min.js"></script>
 <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     tooltipTriggerList.forEach(t => new bootstrap.Tooltip(t));
